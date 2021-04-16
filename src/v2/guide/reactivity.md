@@ -165,7 +165,7 @@ Vue.component('example', {
 })
 ```
 
-Depuis que `$nextTick()` retourne une promesse, vous pouvez parvenir au même résultat que ci-dessus avec la nouvelle syntaxe [async/await de ES2017](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/async_function) :
+Comme `$nextTick()` retourne une promesse, vous pouvez parvenir au même résultat que ci-dessus avec la nouvelle syntaxe [async/await de ES2017](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Instructions/async_function) :
 
 ``` js
   methods: {
